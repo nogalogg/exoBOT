@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"discord.js": "^14.13.0",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.2",
+		"@babel/preset-env": "^7.23.2",
+		"@babel/preset-modules": "^0.1.6"
+	},
+	"type": "module",
+	"eslintConfig": {
+		"env": {
+			"node": true,
+			"es6": true
+		},
+		"parserOptions": {
+			"ecmaVersion": 2023,
+			"sourceType": "module"
+		}
+	}
+}
