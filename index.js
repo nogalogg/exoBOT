@@ -51,7 +51,7 @@ for (const file of commandFiles) {
   import(filePath)
     .then((command) => {
       if ('data' in command.com && 'execute' in command.com) {
-        client.commands.set(command.com.data.name, command);
+        client.commands.set(command.com.data.name, command.com);
       } else {
         console.log(
           `[WARNING] The command at ${filePath} is missing a required data or execute property.`
